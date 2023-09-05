@@ -236,6 +236,9 @@ void payment()
    printf("Enter phone number of the subscriber for payment");
    scanf("%[^\n]",phonenumber);
    fflush(stdin);
+
+
+   //hello world
    while(fread(&s,sizeof(s),1,f)==1)
    {
       if(strcmp(s.phonenumber,phonenumber)==0)
